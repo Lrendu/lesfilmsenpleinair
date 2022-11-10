@@ -20,6 +20,15 @@
   color: #a3320b;
 }
 
+.footnav a {
+  float: right;
+  color: #12130f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .cover-image {
     background-image: url('https://cdn-s-www.leprogres.fr/images/5C997278-935C-4A13-BFF4-FC1A54AC2381/NW_raw/en-tout-l-institut-lumiere-aura-projete-huit-films-gratuits-cet-ete-place-ambroise-courtois-photo-joel-philippon-1538576399.jpg');
     background-repeat: no-repeat;
