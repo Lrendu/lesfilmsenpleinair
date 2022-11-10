@@ -26,6 +26,8 @@
     background-attachment: fixed;
     background-size: 100% 100%;
     color: #FFFFFF;
+    max-width: 100%;
+    height: auto;
 }
   
 styled {
