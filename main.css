@@ -34,7 +34,7 @@
 .bottomright {
   position: absolute;
   bottom: 8px;
-  right: 50%;
+  right: 40%;
   left: 50%;
   font-size: 18px;
   transform: translate(-50%, -50%);
