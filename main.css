@@ -3,7 +3,6 @@
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #12130f;
@@ -13,12 +12,16 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   color: #a3320b;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   color: #a3320b;
 }
+
+#cover-image {
+   url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
+   color: #FFFFFF;
+}
+  
