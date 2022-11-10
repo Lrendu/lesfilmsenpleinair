@@ -33,8 +33,9 @@
 .bottomright {
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  right: 50%;
   font-size: 18px;
+  transform: translate(-50%, -50%);
 }
 
 .title {
@@ -42,5 +43,5 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 30px;
 }
