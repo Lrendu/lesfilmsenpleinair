@@ -98,3 +98,8 @@
 
 .d { grid-area: d; }
 .f { grid-area: f; }
+
+.movie-synopsis {
+    margin-right: 40px;
+  margin-left : 40px;
+}
