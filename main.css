@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+.background {
+  background-color: #F4FAFF;
+}
+
 .topnav a {
   float: right;
   color: #12130f;
