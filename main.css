@@ -91,8 +91,9 @@
   grid-template-rows: 1fr 1fr 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
-    "d . ."
-    "d . ."
+    "d f f"
+    "d f f"
     ". . ."; 
 }
 .d { grid-area: d; }
+.f { grid-area: f; }
