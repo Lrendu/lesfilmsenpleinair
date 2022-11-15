@@ -96,3 +96,5 @@
     ". . ."; 
 }
 
+.d { grid-area: d; }
+.f { grid-area: f; }
