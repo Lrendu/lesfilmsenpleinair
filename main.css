@@ -7,6 +7,10 @@
   background-color: #F4FAFF;
 }
 
+.h2 {
+  margin-top : 10px; 
+}
+
 .topnav a {
   float: right;
   color: #12130f;
