@@ -85,15 +85,16 @@
   grid-auto-flow: row;
 }
 
-.container-movie {
+.container {
   display: grid; 
-  grid-template-columns: 1.4fr 0.6fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-columns: 1.4fr 0.2fr 1.4fr; 
+  grid-template-rows: 2.6fr 0.5fr 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
-    "d f f"
-    "d f f"
+    "d e f"
+    ". . ."
     ". . ."; 
 }
 .d { grid-area: d; }
 .f { grid-area: f; }
+.e { grid-area: e; }
