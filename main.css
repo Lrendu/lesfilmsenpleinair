@@ -87,20 +87,22 @@
 
 .container-movie {
   display: grid; 
-  grid-template-columns: 1.4fr 0.2fr 1.4fr; 
+  grid-template-columns: 1.4fr 0.2fr 1.2fr 0.2f; 
   grid-template-rows: 2.6fr 0.5fr 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
-    "d e f"
-    ". . ."
-    ". . ."; 
+    "d e f g"
+    ". . . ."
+    ". . . ."; 
 }
 .d { grid-area: d; }
 .f { grid-area: f; }
 .e { grid-area: e; }
+.g { grid-area: g; }
+
 .movie-synopsis {
-   margin-right: 40px;
-  margin-left : 40px;
+   margin-right: 50px;
+   margin-left : 50px;
 }
 
  .bottom-left {
