@@ -91,14 +91,12 @@
   grid-template-rows: 2.6fr 0.5fr 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
-    "d e f"
+    "d f f"
     ". . ."
     ". . ."; 
 }
 .d { grid-area: d; }
 .f { grid-area: f; }
-.e { grid-area: e; }
-
 .movie-synopsis {
    margin-right: 50px;
    margin-left : 50px;
