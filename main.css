@@ -130,6 +130,7 @@ form.form-example {
 
 div.form-example {
     display: table-row;
+    text-align: center;
 }
 
 label, input {
