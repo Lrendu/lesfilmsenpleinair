@@ -8,7 +8,7 @@
   background-color: white;
 }
 .h2, .h3 {
-  margin-top : 2Opx; 
+  margin-top : 2Opx;
 }
 .topnav a {
   color: #12130f;
@@ -38,6 +38,13 @@
 
   p {
       color: red;
+      margin-right: 1rem !important;
+  }
+
+  .newsletter {
+    padding-top: 0% !important;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -73,12 +80,26 @@
   font-size: 30px;
   font-weight: bold;;
 }
-.presentation {
-  margin-right: 10px;
-  margin-left : 10px;
-}
 .h1-presentation {
   text-align: center;
+}
+
+.new-pres-container {
+  max-width: 100%;
+}
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter {
+  padding-top: 5% !important;
+}
+h5 {
+  font-size: 18px !important;
+}
+label {
+  font-size: 12px !important;
 }
 
 /* movie */
@@ -113,7 +134,7 @@ p.text-info {
 /* booking */
 booking-movie-title {
   margin-bottom: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 form.form-example {
   display: table;
